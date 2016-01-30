@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  # get 'weather_grid/index'
+  devise_for :users
   resources :weather_grid
 
   root to: "home#index"
