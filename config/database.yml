@@ -79,6 +79,8 @@ test:
 #
 #   production:
 #     url: <%= ENV['DATABASE_URL'] %>
+#
+#
 # password: <%= ENV['SAAS-GUIDE_DATABASE_PASSWORD'] %>
 
 production:
